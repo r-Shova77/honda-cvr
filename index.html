@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Foontawesome kite -->
+    <script
+      src="https://kit.fontawesome.com/a3934904e8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Honda-CVR</title>
+  </head>
+  <body>
+    <header class="border-bottom border-secondary">
+      <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed" style="background-color: #264653;">
+        <div class="container">
+          <a class="navbar-brand" href="#">Honda-CVR</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dashboard
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Users</a></li>
+                  <li><a class="dropdown-item" href="#">Products</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Payment</a>
+                  </li>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header> 
+
+    <main>
+      <section class="container-fluid container-color">
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="row py-3">
+            <div class="text-white col-lg-7  d-flex justify-content-center align-items-center">
+              <div>
+                <p class="mb-0">
+                  It’s not a surprise that when gas prices spike during the warmer
+                  months
+                </p>
+                <h1 class="fw-bolder mb-lg-3 mx-sm-auto">Honda CBR 300R</h1>
+                <p class="fs-6">
+                  With summer finally upon us, it’s hard not look wistfully from the
+                  inside of a car and long for the wind on your face—barreling down
+                  country roads, freed from the tethers of smartphones and chatty
+                  passengers.
+                </p>
+                     <!-- Button trigger modal -->
+                  <button
+                  type="button"
+                  class="btn text-white mt-2 bg-purchase px-lg-4 fs-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Purchase
+                </button>
+              </div>
+         
+              <!-- Modal -->
+              <div
+                class="modal fade text-dark"
+                id="exampleModal"
+                tabindex="-3"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Purchase Bike
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Motorcycle prices can vary wildly, but on average, if you’re
+                      buying a new motorcycle fit for a beginner, you’re probably
+                      spending anywhere between $5,000 and $10,000.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="img-fluid" src="/images/header-bike.png" alt="" />
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+
+      <!-- Feture bikes section start here -->
+      <section class="container">
+        <div class="text-center">
+          <h1 class="mt-4 fw-bold text-center">Featured Bikes 2021</h1>
+          <p class="span-color fs-4 fw-bold">Best bike collection</p>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center my-lg-5 my-md-3">
+          <div class="d-flex justify-content-center align-items-center col-lg-4 col-md-12 mb-md-5">
+            <img
+              src="/images/feature-bike.jpg"
+              style="width: 288px; height: 243px; filter: grayscale(100%)"
+            />
+          </div>
+          <div class="d-flex justify-content-center align-items-center col-lg-4 col-md-12 mb-md-5">
+            <img
+              src="/images/feature-bike.jpg"
+              style="width: 288px; height: 243px"
+            />
+          </div>
+          <div class="d-flex justify-content-center align-items-center col-lg-4 col-md-12 mb-md-5">
+            <img
+              src="/images/feature-bike.jpg"
+              style="width: 288px; height: 243px; filter: grayscale(100%)"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Feture bikes section end here -->
+      <!-- Happy Clients Start -->
+      <section class="container">
+        <h1 class="my-5 fw-bold text-center">
+          Happy <span class="span-color">Clients Says</span>
+        </h1>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div
+            class="col-lg-3 col-12 m-2 p-4 rounded-3 border border-1"
+            style="width: 323px; height: 478.01px"
+          >
+            <div class="text-center">
+              <img
+                src="/images/user-3.jpg"
+                class="mx-auto d-block mb-lg-4 rounded-circle"
+                style="width: 150px; height: 150px"
+                alt=""
+              />
+
+              <p class="text-center fs-5 mb-3 user-p-color">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <!-- Rating piont -->
+              <div class="span-color d-flex justify-content-center mb-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p
+                class="d-flex justify-content-center mb-3 fs-6 fw-bolder"
+                style="color: #23a6f0"
+              >
+                Sophia
+              </p>
+              <p class="d-flex justify-content-center mt-0 fs-6 fw-bolder">
+                Healtcare
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-12 m-2 d-flex p-4 rounded-3 border border-1"
+            style="width: 323px; height: 478.01px"
+          >
+            <div class="text-center">
+              <img
+                src="/images/user-2.png"
+                class="mx-auto d-block mb-lg-4"
+                style="width: 150px; height: 150px"
+                alt=""
+              />
+
+              <p class="text-center fs-5 mb-lg-3 user-p-color">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <!-- Rating piont -->
+              <div class="span-color d-flex justify-content-center mb-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p
+                class="d-flex justify-content-center mb-lg-3 fs-6 fw-bolder"
+                style="color: #23a6f0"
+              >
+                Madelynn
+              </p>
+              <p class="d-flex justify-content-center mt-0 fs-6 fw-bolder">
+                media and internet
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-12 m-2 d-flex p-4 rounded-3 border border-1"
+            style="width: 323px; height: 478.01px"
+          >
+            <div class="text-center">
+              <img
+                src="/images/user-1.png"
+                class="mx-auto d-block mb-lg-4"
+                style="width: 150px; height: 150px"
+                alt=""
+              />
+
+              <p class="text-center fs-5 mb-lg-3 user-p-color">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <!-- Rating piont -->
+              <div class="span-color d-flex justify-content-center mb-lg-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p
+                class="d-flex justify-content-center mb-lg-3 fs-6 fw-bolder"
+                style="color: #23a6f0"
+              >
+                Regina Miles
+              </p>
+              <p class="d-flex justify-content-center mt-0 fs-6 fw-bolder">
+                Banker
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container"></section>
+      <!-- Hppy Clients End Here -->
+
+      <!-- SQA Start here -->
+      <section class="container">
+        <h1 class="my-4 fw-bold text-center">
+          Frequently Asked <span class="span-color">Question</span>
+        </h1>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-6 col-12">
+            <img
+              class="img-fluid"
+              src="/images/faq.png"
+              style="height: 423px"
+            />
+          </div>
+
+          <div class="col-lg-6 col-sm-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <i class="fas fa-exclamation-triangle"> </i>High Fuel
+                    Consumption:
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>Now this is something which concerns</strong>
+                    all the bikers as the price of fuel is hiking sky high.
+                    First of all, it depends on the way you ride your bike.
+                    Proper gear shifting & riding at a constant speed can really
+                    give you a high mileage. But this is just one part of
+                    getting a good economy. There are some small but important
+                    factors too. Proper changing of engine oil can really help
+                    you in getting a good mileage. A good tuning in carburetor
+                    is very much important too.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <i class="fas fa-exclamation-triangle"> </i>Not Getting A
+                    Good Throttle Response:
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong
+                      >If you are not getting a good throttle response</strong
+                    >
+                    If you are not getting a good throttle response then there
+                    are couple of things you can check for. For instance first
+                    thing will be the carburetor tuning along with the engine
+                    tuning. Check for the air filter, fuel filter & the spark
+                    plugs. If the problem still persists then you should check
+                    the quality of the fuel too. Now these are the major things
+                    you should check for first.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <i class="fas fa-exclamation-triangle"></i>Motorcycle
+                    Braking Problems:
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong> I believe this is the most essential</strong>
+                    part of any moving vehicle. I remember when I first learnt
+                    to drive a car, my uncle taught me, it is not about how fast
+                    you can go, it is about how smoothly you can brake even
+                    cruising at a very high speed. In our country we have two
+                    kinds of brakes. One is Drum brakes & the other is Disk
+                    brakes which r controlled by Hydraulic fuel. Lets talk about
+                    Drum brakes first. If you are facing a problem in braking
+                    system then the first thing you need to see is the brake
+                    cable. If it is old, change it. It may rust inside & tangle
+                    when you are braking thus not providing good support.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SQA end here -->
+
+      <!-- Striking Benifits start here -->
+      <section class="container">
+        <h1 class="my-5 fw-bold text-center">
+          Striking <span class="span-color">Benefits</span>
+        </h1>
+        <div class=" row d-flex gx-4 justify-content-center align-items-center">
+          <div class="col-lg-4 text-center rounded-3 striking p-2 m-2 shadow">
+            <img src="/images/death-insurance.png" />
+            <p class="fs-5">Personal Accidental Death Insurance cover</p>
+          </div>
+          <div class="col-lg-6 text-center rounded-3 striking p-2 m-2 shadow">
+            <img src="/images/fine-corp.png" alt="" />
+            <p class="fs-5">
+              Hero FinCorp Two-Wheeler Loan facility at 6.99% Rate of Interest
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Striking Benifits end here -->
+
+
+      <!-- Payment Checkout start -->
+      <section class="container">
+        <h3 class="mt-5 text-md-center fw-bold ">Confirm order and pay</h3>
+        <p class="fs-5 user-p-color text-center">
+          Please make the payment,after that you can enjoy all the serviecs and
+          benefits
+        </p>
+        <div class="row mt-4 d-flex justify-content-center align-items-center">
+          <div class="shadow px-4 rounded-3 m-2 col-lg-5 col-12">
+            <div>
+              <h5 class="my-4 fw-bold">PAYMENT METHODS</h5>
+              <div class="">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="shadow bg-body rounded fw-bold fs-6 p-3">
+                      Bank card
+                    </p>
+                  </div>
+                  <div>
+                    <p class="shadow bg-body rounded fw-bold fs-6 p-3 d-flex">
+                      <i class="fab fa-google-pay fs-1"></i>
+                      Pay
+                    </p>
+                  </div>
+                  <div>
+                    <p class="shadow bg-body rounded fw-bold fs-6 p-3 d-flex">
+                      <i class="fab fa-apple-pay fs-1"></i>
+                      Pay
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h5 class="my-lg-4 fw-bold">PAYMENT DETAILS</h5>
+              <div class="pb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label user-p-color fw-bold"
+                  >Cardholder name</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Name"
+                />
+                <div class="d-flex justify-content-between align-items-center my-2">
+                  <input
+                    class="form-control text-center"
+                    type="text"
+                    placeholder="Card Number"
+                    aria-label="default input example"
+                  />
+                  <input
+                    class="form-control text-center mx-2"
+                    type="text"
+                    placeholder="DATE"
+                    aria-label="default input example"
+                  />
+                  <input
+                    class="form-control text-center"
+                    type="text"
+                    placeholder="CVV"
+                    aria-label="default input example"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="
+              bg-primary
+              text-light
+              p-4
+              rounded-3
+              m-2
+              col-lg-5 col-12
+            "
+          >
+            <h5 class="user-p-color">You have to pay</h5>
+            <h2>
+              $4000<span style="font-size: small; color: antiquewhite"
+                >.99 USD</span
+              >
+            </h2>
+            <hr />
+            <div class="mb-lg-4">
+              <h5 class="user-p-color">Company</h5>
+              <h6>Programming Hero</h6>
+            </div>
+            <div class="mb-lg-4">
+              <h5 class="user-p-color">Order Number</h5>
+              <h6>2290700</h6>
+            </div>
+            <div>
+              <h5 class="user-p-color">Service</h5>
+              <h6>New Documents</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Payment Checkout end -->
+
+      <!-- Footer start here -->
+      <section class="mt-4 py-3" style="background-color: #264653;">
+        <div class="container text-light">
+          <div class="row d-flex justify-content-between align-items-center">
+            <p class="h4 col-lg-4 col-12 text-center">Honda-CVR</p>
+            <div class="col-lg-4 col-12 text-center">
+              <div>
+                <h4>Follow us</h4>
+                <div class="d-flex justify-content-center">
+                  <i class="fs-2 text-primary fab fa-facebook"></i>
+                  <i class="fs-2 mx-2 text-warning fab fa-instagram"></i>
+                  <i class="fs-2 text-primary fab fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12 text-center mt-sm-4">
+              <h4>Contact us</h4>
+              <div class="mt-3">
+                <p>+8801778-702218</p>
+                <p>shovu@gmail.com</p>
+                <p>Fax- 834484</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer end here -->
+    </main>
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
